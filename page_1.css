@@ -1,0 +1,64 @@
+body{
+	background-color: #0A8BBF;
+}
+#ajout{
+	width: 500px;
+	margin: auto;
+}
+#form{
+	margin: auto;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #f1f1f1;
+	background-color: #fff;
+	text-align: center;	
+	margin-top: 10%
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+legend{
+	width:40%;
+	margin-left: 5%;
+	background-color: #000;
+	color: #fff;
+	padding: 3px 6px;
+	text-align: center;
+	font-family:  "Luxi Sans", sans-serif;
+}
+label {
+  /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+p{
+	color: #999;
+	font-family:  "Luxi Sans", sans-serif;
+}
+input:focus,textarea:focus{
+  /* Pour souligner légèrement les éléments actifs */
+  border-color: #0A8BBF;
+}
+textarea {
+  /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+  vertical-align: middle;
+
+  /* Pour donner assez de place pour écrire du texte */
+  height: 5em;
+}
+
+#submit{
+  background-color: #0A8BBF;
+  margin-left: 5%;
+  padding : 10px 50px;
+  color: white;
+  border:none;
+  cursor:pointer;
+  font-family: "Luxi Sans", sans-serif;
+}
+
+#titre{
+	text-align: center;
+	font-family: "Luxi Sans", sans-serif;
+	color: white;
+}
